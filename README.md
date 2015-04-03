@@ -27,7 +27,13 @@
 - 過去数日分のデータから安全なルートか、安全ではないルートかの(判断はしない)ゆるい描画
 - 海浜公園のデータ整形と気象データの相関関係探る
 - 去年のAPI進化させるのどうじゃろ??JAXAのデータは立場的に公開できない(科学的に精緻なことを条件に)一部切り落としたL3を、ラグランジュかなんか(単純に移動平均でもいい)で「補完」して陸域と海域の境界ギリギリとかまでAPIアクセスできるしh5に戻してGCOMToolsとかで描画する??
+	- 職業上、私もJAXAと同じサイドにいるので、これはちょっと....
 - 役所だとできない、役所だから出来ないことやりたい。(国交省と海保とJAXAのデータで地球観測・マッピング)
+	- であれば、国交省から河川とダムの水位データを、JAXAのGSMaP/GCOM-W1 etc.から降水量その他をもらってきてマッピングすれば、国内に限られるけどOfficial Challenge のClean Water Mappingにapplyできる。
+	- 世界に関しては、OSMの井戸、水道のタグが付いた位置をマッピング。
+	- あと、だいちが水域のデータを観測していないかなぁ
+	- 水質センサが作れれば、それをバラまいて....
+	- 湯村さんはOfficial Challengeにこだわっている気がするので、こじつけでもOfficial Challenge に絡めておいたほうが良い気がする....
 
 #### ISAC2015 Official Challenge でできそうなことを列挙してみる
 
@@ -44,8 +50,8 @@
 - Crop Alert
 	- サービスだけなら作れそう。
 	- アイデアソンでチーム作っている人がいるっぽい
+	- すでに大平さんが....
 	- https://2015.spaceappschallenge.org/challenge/crop-alert-learning-growers/
 
 我々にとってチャレンジになるのは、Open-Source air traffic tracking かな。まぁトラフィックデータのライセンスは真っ黒だけどw
-- https://www.marinetraffic.com/jp/
-これがセーフならセーフでしょwww
+- https://www.marinetraffic.com/jp/ これがセーフならセーフでしょwww
